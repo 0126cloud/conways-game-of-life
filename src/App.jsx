@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Controls from './components/Controls'
 import Grid from './components/Grid'
-import { AppWrapper, Flex, Title } from './styled/App.styled'
+import { AppWrapper, Flex } from './styled/App.styled'
 
 const initConf = { rows: 50, cols: 50 } 
 const initTheme = 'dark'
@@ -82,7 +82,6 @@ function App() {
 
   return (
     <AppWrapper theme={theme}>
-      <Title>Conway's Game of Life</Title>
       <Flex>
         <Grid grid={grid} theme={theme} toggleCell={toggleCell} />
         <Controls 
