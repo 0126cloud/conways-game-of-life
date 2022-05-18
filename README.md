@@ -1,6 +1,6 @@
 > project create using vite
 
-##### about
+#### about
 
 simple version of Conway's Game of Life
 
