@@ -9,13 +9,14 @@ export const AppWrapper = styled.div`
   background-color: var(--${({ theme }) => theme}-bg);
   color: var(--${({ theme }) => theme}-text);
   min-height: 100vh;
-  width: 100vw;
+  min-width: 100vw;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 1rem 1rem;
   font-family: Copperplate, “Copperplate Gothic Light”, fantasy, serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 ` 
 export const Flex = styled.div`
     display: flex;

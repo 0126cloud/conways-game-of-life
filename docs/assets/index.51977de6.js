@@ -102,13 +102,14 @@ Error generating stack: `+o.message+`
   background-color: var(--${({theme:e})=>e}-bg);
   color: var(--${({theme:e})=>e}-text);
   min-height: 100vh;
-  width: 100vw;
+  min-width: 100vw;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 1rem 1rem;
   font-family: Copperplate, “Copperplate Gothic Light”, fantasy, serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 `,Hf=Xe.div`
     display: flex;
     justify-content: center;
