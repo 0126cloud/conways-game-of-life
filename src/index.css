@@ -1,0 +1,26 @@
+@import 'normalize.css/normalize.css';
+
+:root {
+  --light-bg: #f1f1f1;
+  --light-text: #222222;
+  --light-grid: #222222;
+  --light-popup-shadow: #2222222c;
+  --light-cell-0: transparent;
+  --light-cell-1: rgb(69, 69, 69);
+
+  --dark-bg: #282c34;
+  --dark-text: #ffffff;
+  --dark-grid: rgba(255,255,255,.5);
+  --dark-popup-shadow: rgba(255,255,255,.5);
+  --dark-cell-0: transparent;
+  --dark-cell-1: #61DAFB;
+  --primary-color: #61DAFB;
+  --btn-active: rgb(85, 224, 85);
+  --popup-text: #222222;
+  --popup-bg: #ffffff;
+
+}
+
+* {
+  box-sizing: border-box;
+}
